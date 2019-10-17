@@ -2,8 +2,9 @@ package cn.shilx.algorithm.sort;
 
 import java.util.Arrays;
 
-public class BubbleSort {
+public class BubbleSort implements Sort {
 
+    @Override
     public void sort(int[] arr) {
 
         if (arr == null || arr.length < 2) {

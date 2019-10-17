@@ -35,4 +35,10 @@ public class QueueForStack<T> {
         return null;
     }
 
+    private void checkAssistQueue(){
+        if(assistQueue.isEmpty()){
+
+        }
+    }
+
 }
